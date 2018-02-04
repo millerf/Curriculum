@@ -1,0 +1,151 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body, *{
+  margin:0;
+  padding:0;
+  font-family:'VAGRoundedStdThin',sans-serif;
+  font-style:normal;
+  font-weight:normal;
+  line-height:normal;
+}
+
+#header{
+  text-align:center;
+  margin: 50px 0 ;
+  color:white;
+  font-size:40px;
+  text-transform:uppercase;
+}
+
+body{
+  background-color:#586164;
+}
+
+.date {
+  font-size:11px;
+  font-style:italic;
+}
+ul{
+  list-style:none;
+  overflow:hidden;
+}
+ul.center>li{
+  margin-top:20px;
+
+}
+ul.center{
+  display:block;
+  position:relative;
+  width:80%;
+  margin-left:-40%;
+  left:50%;
+  background-color: white;
+  border: 3px solid black;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  -moz-box-shadow: 8px 8px 12px black;
+  -webkit-box-shadow: 8px 8px 12px black;
+  box-shadow: 8px 8px 12px black;
+  padding:10px;
+  margin-bottom:30px;
+}
+
+div.title{
+  padding-left:10px;
+}
+
+ul div.title {
+  background-color:#e2001a;
+  margin-left:20px;
+  margin-bottom:10px;
+}
+body> ul > li > div.title{
+  height:30px;
+  line-height:30px;
+}
+
+ul ul div.title {
+  background-color:#F2102a;
+  margin-left:40px;
+}
+ul ul div.title {
+  background-color:#FF203a;
+  margin-left:60px;
+  margin-top:2px;
+}
+
+ul ul ul div.title {
+  background-color:#FF203a;
+  margin-left:0px;
+}
+
+
+li#me ul#details {
+  position:relative;
+  left:200px;
+}
+
+
+#employment > ul > li {
+  margin: 30px auto;
+}
+#employment > ul > li > .title{
+  height:30px;
+  line-height: 30px;
+}
+
+#employment ul li ul li{
+  margin: 5px;
+  padding: 3px;
+  background-color:#BBB;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-left:65px;
+  padding-left:150px;
+  position: relative;
+  min-height:150px;
+}
+#employment ul li ul li div.title{
+  margin-left:-150px;
+}
+
+#employment ul li img{
+  display: inline-block;
+  max-width: 100px;
+  max-height:100px;
+  margin: 40px 20px;
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+.summary{
+  display:inline;
+}
+
+.sub ul ul {
+  margin-left:80px;
+}
+
+#languages{
+  margin-left:90px;
+}
+#extras ul{
+  margin-left:20px;
+}
+#extras{
+  margin-left: 80px;
+  background: url(../images/fond_extra.png) -20px -20px transparent;
+  padding: 20px;
+
+}
+
+#education ul li{
+  margin-left:40px;
+}
+
+#employment ul li.extrajobs  ul li {
+  min-height:0;
+  padding-left:10px;
+}
