@@ -1,151 +1,159 @@
-@charset "UTF-8";
+@import "assets/css/stylesheet.css";
+
 /* CSS Document */
 
-html, body, *{
-  margin:0;
-  padding:0;
-  font-family:'VAGRoundedStdThin',sans-serif;
-  font-style:normal;
-  font-weight:normal;
-  line-height:normal;
+html, body, * {
+  margin: 0;
+  padding: 0;
+  font-family: 'VAGRoundedStdThin', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  -webkit-print-color-adjust: exact;
 }
 
-#header{
-  text-align:center;
-  margin: 50px 0 ;
-  color:white;
-  font-size:40px;
-  text-transform:uppercase;
+.print {
+  display: none;
 }
 
-body{
-  background-color:#586164;
+#header {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+body {
+  background-color: #586164;
 }
 
 .date {
-  font-size:11px;
-  font-style:italic;
+  font-size: 11px;
+  font-style: italic;
 }
-ul{
-  list-style:none;
-  overflow:hidden;
-}
-ul.center>li{
-  margin-top:20px;
+
+ul {
+  list-style: none;
+  overflow: hidden;
+
+  &.center {
+    display: block;
+    position: relative;
+    width: 80%;
+    margin-left: -40%;
+    left: 50%;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: 8px 8px 12px black;
+    padding: 50px 10px;
+  }
+
+  li {
+    margin-top:5px;
+    margin-bottom: 5px;
+  }
 
 }
-ul.center{
-  display:block;
-  position:relative;
-  width:80%;
-  margin-left:-40%;
-  left:50%;
-  background-color: white;
-  border: 3px solid black;
-  -moz-border-radius: 15px;
-  border-radius: 15px;
-  -moz-box-shadow: 8px 8px 12px black;
-  -webkit-box-shadow: 8px 8px 12px black;
-  box-shadow: 8px 8px 12px black;
-  padding:10px;
-  margin-bottom:30px;
-}
+
 
 div.title{
-  padding-left:10px;
+  text-decoration: underline;
+  color: #e2001a;
+  margin-left: 20px;
+  font-family: 'VAGRoundedStdBlack', sans-serif;
+
+  .title{
+    .title{
+      color: #FF203a;
+      margin-left: 60px;
+    }
+  }
 }
 
-ul div.title {
-  background-color:#e2001a;
-  margin-left:20px;
-  margin-bottom:10px;
-}
-body> ul > li > div.title{
-  height:30px;
-  line-height:30px;
-}
-
-ul ul div.title {
-  background-color:#F2102a;
-  margin-left:40px;
-}
-ul ul div.title {
-  background-color:#FF203a;
-  margin-left:60px;
-  margin-top:2px;
-}
-
-ul ul ul div.title {
-  background-color:#FF203a;
-  margin-left:0px;
-}
-
-
-li#me ul#details {
-  position:relative;
-  left:200px;
-}
-
-
-#employment > ul > li {
-  margin: 30px auto;
-}
-#employment > ul > li > .title{
-  height:30px;
+body > ul > li > div.title {
+  height: 30px;
   line-height: 30px;
+
 }
 
-#employment ul li ul li{
-  margin: 5px;
-  padding: 3px;
-  background-color:#BBB;
-  -moz-border-radius: 5px;
+#employment > ul > li > .title {
+  height: 30px;
+  line-height: 30px;
+  color: #FF203a;
+  margin-left: 40px;
+
+}
+
+#employment ul li ul li {
+  background-color: #EEE;
   border-radius: 5px;
-  margin-left:65px;
-  padding-left:150px;
+  min-height: 150px;
   position: relative;
-  min-height:150px;
-}
-#employment ul li ul li div.title{
-  margin-left:-150px;
-}
-
-#employment ul li img{
-  display: inline-block;
-  max-width: 100px;
-  max-height:100px;
-  margin: 40px 20px;
-  position:absolute;
-  top:0;
-  left:0;
-}
-
-.summary{
-  display:inline;
+  padding: 5px;
+  .date,.summary {
+    position: relative;
+    left: 150px;
+  }
+  img {
+    display: inline-block;
+    max-width: 100px;
+    max-height: 100px;
+    margin: 40px 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 }
 
-.sub ul ul {
-  margin-left:80px;
+.summary {
+  display: inline;
 }
 
-#languages{
-  margin-left:90px;
+.ref{
+  text-align: right;
 }
-#extras ul{
-  margin-left:20px;
-}
-#extras{
-  margin-left: 80px;
-  background: url(../images/fond_extra.png) -20px -20px transparent;
-  padding: 20px;
+#extras {
+  background: url(assets/images/fond_extra.png) -20px -20px transparent;
 
+  li {
+    color:white;
+  }
 }
 
-#education ul li{
-  margin-left:40px;
+
+#employment ul li.extrajobs ul li {
+  min-height: 0;
 }
 
-#employment ul li.extrajobs  ul li {
-  min-height:0;
-  padding-left:10px;
+
+
+@page {
+  size: A4;
+}
+
+@media print{
+
+  .print {
+    display: block;
+  }
+  .no-print{
+    display: none;
+  }
+
+  #header{
+    display: none;
+  }
+
+  ul.center {
+    display: block;
+    position: static;
+    width: 100%;
+    margin-left: 0%;
+    left: 0%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0px;
+  }
 }
