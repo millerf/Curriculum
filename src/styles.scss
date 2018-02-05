@@ -25,6 +25,8 @@ html, body, * {
 
 body {
   background-color: #586164;
+
+  min-width:640px;
 }
 
 .date {
@@ -56,33 +58,44 @@ ul {
 
 }
 
+a{
+  color: #FF203a;
+}
+
+
+#me {
+  img{
+    margin-right: 5px;
+    width: 30px;
+  }
+}
 
 div.title{
   text-decoration: underline;
   color: #e2001a;
   margin-left: 20px;
+  height: 30px;
+  line-height: 30px;
   font-family: 'VAGRoundedStdBlack', sans-serif;
+}
 
-  .title{
-    .title{
-      color: #FF203a;
-      margin-left: 60px;
-    }
+li.sub{
+  margin-left: 20px;
+  ul {
+    margin-left:40px;
+  }
+  & > .title{
+    color: black;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+    width:100%;
+    margin-left: 20px;
+    margin-bottom: 10px;
   }
 }
 
-body > ul > li > div.title {
-  height: 30px;
-  line-height: 30px;
-
-}
-
 #employment > ul > li > .title {
-  height: 30px;
-  line-height: 30px;
   color: #FF203a;
-  margin-left: 40px;
-
 }
 
 #employment ul li ul li {
@@ -91,9 +104,13 @@ body > ul > li > div.title {
   min-height: 150px;
   position: relative;
   padding: 5px;
-  .date,.summary {
-    position: relative;
-    left: 150px;
+  //.date,.summary {
+  //  position: relative;
+  //  left: 150px;
+  //}
+
+  .summary p, .date{
+    padding-left:150px;
   }
   img {
     display: inline-block;
@@ -106,19 +123,17 @@ body > ul > li > div.title {
   }
 }
 
-.summary {
-  display: inline;
-}
-
 .ref{
   text-align: right;
+  font-size: 13px;
+  font-style: italic;
+  margin-top: 15px;
 }
 #extras {
-  background: url(assets/images/fond_extra.png) -20px -20px transparent;
-
-  li {
-    color:white;
-  }
+  padding: 10px;
+  background: url(assets/images/fond_extra.png) no-repeat transparent;
+  background-size: 100% 100%;
+  border-radius: 3px;
 }
 
 
@@ -133,6 +148,10 @@ body > ul > li > div.title {
 }
 
 @media print{
+
+  body{
+    font-size: 12px;
+  }
 
   .print {
     display: block;
@@ -155,5 +174,23 @@ body > ul > li > div.title {
     border-radius: 0;
     box-shadow: none;
     padding: 0px;
+  }
+
+  .sub {
+    ul ul li {
+      page-break-inside: avoid;
+    }
+  }
+}
+
+
+@media screen and (max-width: 640px) {
+  ul.center {
+    width: 100%;
+    margin-left: 0;
+    left: 0;
+    border: none;
+    border-radius: none;
+
   }
 }
