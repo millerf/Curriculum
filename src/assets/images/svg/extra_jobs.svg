@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.5 23.5">
+  <defs>
+    <style>
+      .aee8c8e4-011b-4ce2-a37d-d8d4da084160 {
+        fill: none;
+        stroke: #ff0914;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <title>Recurso 17</title>
+  <g id="ec12b522-e64b-48cb-9f36-dd62843e5743" data-name="Capa 2">
+    <g id="b0800e52-7659-4a5c-b64d-26b27057dfda" data-name="Capa 1">
+      <g>
+        <g>
+          <polygon class="aee8c8e4-011b-4ce2-a37d-d8d4da084160" points="14.75 9.75 8.75 9.75 8.75 3.75 14.75 9.75"/>
+          <polygon class="aee8c8e4-011b-4ce2-a37d-d8d4da084160" points="22.75 6.75 16.75 6.75 16.75 0.75 22.75 6.75"/>
+        </g>
+        <path class="aee8c8e4-011b-4ce2-a37d-d8d4da084160" d="M8.75,3.75h-7a1.00294,1.00294,0,0,0-1,1v17a1.00294,1.00294,0,0,0,1,1h12a1.00294,1.00294,0,0,0,1-1v-12"/>
+        <path class="aee8c8e4-011b-4ce2-a37d-d8d4da084160" d="M17.75,19.75h4a1.00294,1.00294,0,0,0,1-1v-12"/>
+        <line class="aee8c8e4-011b-4ce2-a37d-d8d4da084160" x1="16.75" y1="0.75" x2="8.75" y2="0.75"/>
+      </g>
+    </g>
+  </g>
+</svg>

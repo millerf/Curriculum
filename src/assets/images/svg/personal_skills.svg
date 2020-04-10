@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.5 23.5">
+  <defs>
+    <style>
+      .bf3d6572-beca-40e0-bb31-60b94bf347ae {
+        fill: none;
+      }
+
+      .b2e8b2ac-0fde-498b-9a18-b582c779a14e, .bf3d6572-beca-40e0-bb31-60b94bf347ae {
+        stroke: #ff0914;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+
+      .b2e8b2ac-0fde-498b-9a18-b582c779a14e {
+        fill: #ff0914;
+      }
+    </style>
+  </defs>
+  <title>Recurso 15</title>
+  <g id="fa6f1ef0-4c5b-4330-9490-9a22be492dfe" data-name="Capa 2">
+    <g id="b700753e-a1bc-43ed-8158-50866011cb3e" data-name="Capa 1">
+      <g>
+        <circle class="bf3d6572-beca-40e0-bb31-60b94bf347ae" cx="11.75" cy="11.75" r="11"/>
+        <path class="bf3d6572-beca-40e0-bb31-60b94bf347ae" d="M17.75,14.75a6.70649,6.70649,0,0,1-6,4,6.744,6.744,0,0,1-6-4"/>
+        <circle class="b2e8b2ac-0fde-498b-9a18-b582c779a14e" cx="15.75" cy="9.75" r="1"/>
+        <circle class="b2e8b2ac-0fde-498b-9a18-b582c779a14e" cx="7.75" cy="9.75" r="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

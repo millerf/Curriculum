@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.5 23.50388">
+  <defs>
+    <style>
+      .a5ba1f06-2f2b-4fbf-b507-1ad0d7e6e08d {
+        fill: none;
+        stroke: #ff0914;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <title>Recurso 20</title>
+  <g id="ab52493c-8096-43e0-a835-db9ad1fe426d" data-name="Capa 2">
+    <g id="ff4efe1d-addf-4b56-a010-b6e9af23dd69" data-name="Capa 1">
+      <g>
+        <path class="a5ba1f06-2f2b-4fbf-b507-1ad0d7e6e08d" d="M8.751,15.75.75,20.5527v1.4668a.73648.73648,0,0,0,.73339.73438h20.5332A.73585.73585,0,0,0,22.75,22.0195V20.5508L14.749,15.75"/>
+        <path class="a5ba1f06-2f2b-4fbf-b507-1ad0d7e6e08d" d="M14.749,15.75c3.00589-2.3223,3.001-6.4356,3.001-6.4356l-.00291-4.2812C17.31539,2.6015,14.38089.75,11.75.75V.75188c-2.63181,0-5.56541,1.8516-5.99711,4.28322L5.75,9.3164S5.74509,13.4277,8.751,15.75"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.5 17.5">
+  <defs>
+    <style>
+      .bb99ed62-5929-44f1-9844-8d77e133a86b {
+        fill: none;
+        stroke: #ff0914;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <title>Recurso 26</title>
+  <g id="ba33efc8-2366-4208-a0a4-8a35c967d5b5" data-name="Capa 2">
+    <g id="bdb489e1-e5c1-445b-9772-a9bb08baa577" data-name="Capa 1">
+      <g>
+        <rect class="bb99ed62-5929-44f1-9844-8d77e133a86b" x="0.75" y="0.75" width="22" height="16" rx="2"/>
+        <polyline class="bb99ed62-5929-44f1-9844-8d77e133a86b" points="22.017 1.451 11.75 9.75 1.482 1.451"/>
+      </g>
+    </g>
+  </g>
+</svg>

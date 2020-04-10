@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.5 23.5">
+  <defs>
+    <style>
+      .af9a09a1-def1-4c39-845c-8c14d77cbfdf {
+        fill: none;
+        stroke: #ff0914;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <title>Recurso 16</title>
+  <g id="f41f295b-bf74-4439-a792-9777635d63bc" data-name="Capa 2">
+    <g id="b6b17411-5bb2-4910-8522-92125070bc2b" data-name="Capa 1">
+      <g>
+        <g>
+          <circle class="af9a09a1-def1-4c39-845c-8c14d77cbfdf" cx="11.75" cy="11.75" r="11"/>
+          <path class="af9a09a1-def1-4c39-845c-8c14d77cbfdf" d="M12.75389.80862A14.4773,14.4773,0,0,1,12.75,22.69342"/>
+          <path class="af9a09a1-def1-4c39-845c-8c14d77cbfdf" d="M10.74609,22.69342A14.47732,14.47732,0,0,1,10.75.80862"/>
+          <line class="af9a09a1-def1-4c39-845c-8c14d77cbfdf" x1="11.75" y1="0.75" x2="11.75" y2="22.75"/>
+        </g>
+        <line class="af9a09a1-def1-4c39-845c-8c14d77cbfdf" x1="1.75" y1="7.75" x2="21.75" y2="7.75"/>
+        <line class="af9a09a1-def1-4c39-845c-8c14d77cbfdf" x1="1.75" y1="15.75" x2="21.75" y2="15.75"/>
+      </g>
+    </g>
+  </g>
+</svg>

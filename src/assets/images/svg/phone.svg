@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.5004 23.50002">
+  <defs>
+    <style>
+      .ac9eef29-6eb3-45d9-8004-c9c0be82868f {
+        fill: none;
+        stroke: #ff0914;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <title>Recurso 25</title>
+  <g id="be654f32-8f98-462e-89d3-750aa06c2603" data-name="Capa 2">
+    <g id="b5b80e27-fdf5-44af-b51d-855053759c9e" data-name="Capa 1">
+      <g>
+        <path class="ac9eef29-6eb3-45d9-8004-c9c0be82868f" d="M4.4154.75,1.15169,3.6504l-.0195.0196c-1.4766,1.4765,1.45121,6.8086,6.6133,11.9707,5.1631,5.1665,10.6103,8.2129,12.08691,6.7368l.01949-.0215,2.89851-3.2974-5-4.3086-4,1.9986L6.7494,9.75l2-4Z"/>
+        <g>
+          <polyline class="ac9eef29-6eb3-45d9-8004-c9c0be82868f" points="19.75 8.75 14.75 8.75 14.75 3.75"/>
+          <line class="ac9eef29-6eb3-45d9-8004-c9c0be82868f" x1="14.7504" y1="8.75" x2="22.7504" y2="0.75"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

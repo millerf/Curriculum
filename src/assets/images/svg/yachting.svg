@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.5 23.56741">
+  <defs>
+    <style>
+      .becad9be-62ab-42a4-95de-859e0d661ed0 {
+        fill: none;
+        stroke: #ff0914;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+    </style>
+  </defs>
+  <title>Recurso 18</title>
+  <g id="b9b4b7df-6984-4481-82f0-14e3cf926a02" data-name="Capa 2">
+    <g id="ab47f35f-5f56-404a-be1c-0f96db458e4d" data-name="Capa 1">
+      <g>
+        <line class="becad9be-62ab-42a4-95de-859e0d661ed0" x1="11.75" y1="4.81741" x2="11.75" y2="22.81741"/>
+        <path class="becad9be-62ab-42a4-95de-859e0d661ed0" d="M2.75,13.74711a9,9,0,0,0,18,0"/>
+        <path class="becad9be-62ab-42a4-95de-859e0d661ed0" d="M13.75,2.74711a2,2,0,1,0-2,2A1.9989,1.9989,0,0,0,13.75,2.74711Z"/>
+        <line class="becad9be-62ab-42a4-95de-859e0d661ed0" x1="7.5273" y1="5.75" x2="15.5273" y2="5.75"/>
+        <polyline class="becad9be-62ab-42a4-95de-859e0d661ed0" points="5.75 15.747 2.75 13.747 0.75 16.747"/>
+        <polyline class="becad9be-62ab-42a4-95de-859e0d661ed0" points="17.75 15.747 20.75 13.747 22.75 16.747"/>
+      </g>
+    </g>
+  </g>
+</svg>
