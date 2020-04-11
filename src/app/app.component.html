@@ -1,13 +1,14 @@
 <img src="assets/FAB-CV.jpg" id="placeholder" />
 
 <div class="container">
-  <div id="header" class="pl-5 pt-5 pb-2 ml-5">
+  <div id="header" class="pl-5 pt-5 pb-2 ml-5 d-none">
     <h1 class="pl-1"><b>Miller/F</b></h1>
     <h1 class="pl-1">Fabien Millerand's resumé</h1>
   </div>
 
-  <div class="container-page pl-5 ml-5">
-    <div id="me" class="row">
+  <div class="container-page">
+    <div class="pl-5 ml-5 d-none">
+    <div id="me" class="row d-none">
       <div class="col">
         <div>
           <img class="icon" src="/assets/images/svg/email.svg" />fab@millerf.com
@@ -49,7 +50,10 @@
         </div>
       </div>
     </div>
-    <div class="row">
+  </div>
+
+    <div class="pl-5 ml-5 d-none">
+    <div class="row d-none">
       <div class="col">
         <div class="content">
           <h2>Education</h2>
@@ -270,47 +274,50 @@
         </div>
       </div>
     </div>
-
-    <div id="employment" class="content">
-      <h2>EMPLOYMENT HISTORY</h2>
+    </div>
+    <div id="employment" class="content content_no_gutters">
+      <h2 class="pl-5 ml-5">Employment history</h2>
       <ul>
-        <li>
-          <h3 class="title">
+        <li class="ml-2 mr-4">
+          <h3 class="title mx-5 pb-1">
+            <img class="icon mr-3" src="../assets/images/svg/computer.svg"/>
             COMPUTER ENGINEERING
-            <hr/>
           </h3>
-          <ul>
+          <ul class="history">
             <li>
-              <div class="title">Plexus</div>
+              <div class="title">Plexus
+                <a href="https://www.plexus.es" target="_blank"
+                >www.plexus.es</a
+              >
+
+              </div>
               <div class="date">03/19 - present</div>
               <div class="summary">
                 <p>
-                  <a href="https://www.plexus.es" target="_blank"
-                    >www.plexus.es</a
-                  ><br />
                   Project Manager for foreign projects<br />
                   Team leader / Senior Developer<br />
                   In charge of multiple projects - Back-end and Front-end<br />
                 </p>
               </div>
-              <img class="min-width" src="/assets/images/plexus.png" />
+              <img src="../assets/images/work/plexus.png" />
             </li>
 
             <li>
-              <div class="title">Farmerswife - Cirkus</div>
+              <div class="title">Farmerswife - Cirkus
+                <a href="https://www.cirkus.com" target="_blank"
+                    >www.cirkus.com</a
+                  >
+                 </div>
               <div class="date">03/18 - 03/19</div>
               <div class="summary">
                 <p>
-                  <a href="https://www.cirkus.com" target="_blank"
-                    >www.cirkus.com</a
-                  ><br />
                   Team leader / Senior Developer<br />
                   In charge of the front-end team<br />
                   In charge of hybrid Android app (Cordova based)<br />
                   Migrated the entire web app from Angular JS to Angular 6<br />
                 </p>
               </div>
-              <img class="min-width" src="/assets/images/cirkus.svg" />
+              <img src="../assets/images/work/cirkus.svg" />
             </li>
             <li>
               <div class="title">Mozaik project - production stage</div>
@@ -325,7 +332,7 @@
                   Rebuilt the front-edn in Angular 4 / Ionic / Ionic Native<br />
                 </p>
               </div>
-              <img src="/assets/images/ItunesArtwork@2x.png" />
+              <img src="/assets/images/mozaik.png" />
             </li>
             <li>
               <div class="title">Mozaik project - enhancement stage</div>
@@ -348,7 +355,7 @@
                   Learn and master Python, and Angular JS .
                 </p>
               </div>
-              <img src="/assets/images/ItunesArtwork@2x.png" />
+              <img src="/assets/images/mozaik.png" />
             </li>
             <li>
               <div class="title">Mozaik project - prototype stage</div>
@@ -362,7 +369,7 @@
                   - Back-end: PHP<br />
                 </p>
               </div>
-              <img src="/assets/images/ItunesArtwork@2x.png" />
+              <img src="/assets/images/mozaik.png" />
             </li>
 
             <li>
@@ -420,7 +427,7 @@
               <div class="ref">
                 Reference : Paul Boxer ,CEO ( paulb@sentientai.com)
               </div>
-              <img src="/assets/images/sentient.gif" />
+              <img src="../assets/images/work/sentient.gif" />
             </li>
             <li>
               <div class="title">
@@ -431,7 +438,7 @@
                 <p>Using the PHP Facebook client library</p>
               </div>
               <div class="ref"></div>
-              <img src="/assets/images/facebook.png" />
+              <img src="../assets/images/work/facebook.png" />
             </li>
             <li>
               <div class="title">
@@ -452,7 +459,7 @@
                 Reference : Jean-François Longuet (
                 jean-francois.longuet@airbus.com)
               </div>
-              <img src="/assets/images/airbus.png" />
+              <img src="../assets/images/work/airbus.png" />
             </li>
             <li>
               <div class="title">Web developer (XHTML, PHP, AJAX)</div>
@@ -470,7 +477,7 @@
               <div class="ref">
                 Reference : Francois Riant (f.riant@mooonstudio.com)
               </div>
-              <img src="/assets/images/rivegauche.png" />
+              <img src="../assets/images/work/rivegauche.png" />
             </li>
             <li>
               <div class="title">CMS developer (XHTML, PHP)</div>
@@ -493,7 +500,7 @@
               <div class="ref">
                 Reference : Sebastien Vidotto (sebastien.vidotto@xiizeos.fr)
               </div>
-              <img src="/assets/images/xiizeos.png" />
+              <img src="../assets/images/work/xiizeos.png" />
             </li>
             <li>
               <div class="title">Web developer (XHTML, PHP)</div>
@@ -508,7 +515,7 @@
               <div class="ref">
                 Reference : Sebastien Vidotto (sebastien.vidotto@xiizeos.fr)
               </div>
-              <img src="/assets/images/xiizeos.png" />
+              <img src="../assets/images/work/xiizeos.png" />
             </li>
             <li>
               <div class="title">Maintenance technician</div>
@@ -524,13 +531,13 @@
                 Reference : Gus Fabian (tel:(954) 563-6667 /
                 gus@lightingguru.com
               </div>
-              <img src="/assets/images/LBU.png" />
+              <img src="../assets/images/work/LBU.png" />
             </li>
           </ul>
         </li>
         <li>
           <h3 class="title">YATCHING (STCW '95 LICENCE)</h3>
-          <ul>
+          <ul class="pl-5 ml-5">
             <li>
               <div class="title">Sailing Yacht Brown Eyed Girl AMEL 55'</div>
               <div class="date">mid- June- 4th July 2010</div>
@@ -542,7 +549,7 @@
               <div class="ref">
                 Reference : Skipper Joe S/V Brown Eyed Girl WDE2031@sailmail.com
               </div>
-              <img src="/assets/images/BEG.png" />
+              <img src="../assets/images/yachting/BEG.png" />
             </li>
             <li>
               <div class="title">Sailing Catamaran Noe Luna ( Lagoon 421)</div>
@@ -555,7 +562,7 @@
               <div class="ref">
                 Reference : Skipper Matthieu Vermersch mvermersch@evcap.com.sg
               </div>
-              <img src="/assets/images/noeluna.png" />
+              <img src="../assets/images/yachting/noeluna.png" />
             </li>
             <li>
               <div class="title">Sailing Yatch 46'</div>
@@ -580,7 +587,7 @@
               <div class="ref">
                 Reference : Capitain/Skipper AndrewJohnson (+614.17341.6863)
               </div>
-              <img src="/assets/images/MYC.png" />
+              <img src="../assets/images/yachting/MYC.png" />
             </li>
 
             <li>
@@ -600,7 +607,7 @@
                 Reference : Capitain/Skipper Bernard TARRES ( +336.71.56.31.73 /
                 bernardtarres@yahoo.fr )
               </div>
-              <img src="/assets/images/parsifal2.png" />
+              <img src="../assets/images/yachting/parsifal2.png" />
             </li>
             <li>
               <div class="title">Sailing Yatch / Ketch 148' MEPHISTO</div>
@@ -614,7 +621,7 @@
                 Reference : Capitain/Skipper Bernard TARRES ( +336.71.56.31.73 /
                 bernardtarres@yahoo.fr )
               </div>
-              <img src="/assets/images/mephisto.png" />
+              <img src="../assets/images/yachting/mephisto.png" />
             </li>
             <li>
               <div class="title">Motor Yatch Magusta 72' JUST M</div>
@@ -628,7 +635,7 @@
               <div class="ref">
                 Reference : Owner Oleg MEDVEDEV ( +7(095) 931 9906)
               </div>
-              <img src="/assets/images/justM.png" />
+              <img src="../assets/images/yachting/justM.png" />
             </li>
             <li>
               <div class="title">Motor Yatch 254' HELIOS</div>
@@ -642,7 +649,7 @@
                 Reference : Gus Fabian (tel:(954) 563-6667 /
                 gus@lightingguru.com
               </div>
-              <img src="/assets/images/helios.png" />
+              <img src="../assets/images/yachting/helios.png" />
             </li>
             <li>
               <div class="title">Other boats</div>
@@ -752,7 +759,7 @@
         </li>
       </ul>
     </div>
-    <div class="sub">
+    <div class="ml-5 pl">
       <h2>LANGUAGES</h2>
       <ul id="languages">
         <li>French : Native tongue</li>
