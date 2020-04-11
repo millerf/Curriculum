@@ -6,12 +6,12 @@
 */
 #placeholder {
   position: absolute;
-  top:0;
+  top:-24px;
   left:0;
 }
 
 .container{
-  opacity: 0.5;
+  opacity: 0.8;
   z-index: 200;
   margin: 0;
   padding:0;
@@ -40,29 +40,49 @@ h1{
 
 h2{
   color: $red;
-  text-transform: capitalize;
   font-size: 1.8rem;
-  line-height: 1.1rem;
+  line-height: 1.6rem;
   font-family: 'Maven Pro';
   font-weight: 900;
   font-style: normal;
+  sub {
+    font-size: 1rem;
+    line-height: 1rem;
+    display:block;
+    margin-bottom: 1rem;
+  }
 }
+
+h3{
+  color: $red;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  text-transform: uppercase;
+
+  hr{
+    color: red;
+  }
+}
+
 
 .content{
   padding-top: 1.9rem;
-  padding-right: 2.5rem;
-  li{
+  padding-right: 5.75rem;
+  margin-bottom: 2.6rem;
+  li, a{
     font-size: 0.8rem;
+    line-height:1.1rem;
   }
 }
 .title{
-  margin: 0.8rem 0;
+  margin-top: 0.7rem;
   font-weight: bold;
   sub{
     font-weight: bold;
     display: block;
     font-size: 0.8rem;
     margin-bottom: 1rem;
+    margin-top: 0.3rem;
   }
 }
 
@@ -89,16 +109,23 @@ h2{
     text-transform: uppercase;
   }
 
-  margin-bottom: 1.7rem;
+  margin-bottom: 1.5rem;
 }
 
-#computing {
+#computing_bg {
   background-color: $grey-lighter;
-  margin: auto 2.6rem;
-  padding: auto 1.4rem;
+  margin-right: 15%;
+  padding-right: 1rem;
+
+  #computing_position{
+    padding-left: 1.7rem;
+  }
 
   .title {
     color: $red;
+  }
+  li, a {
+    line-height:1.2rem;
   }
 }
 
@@ -120,4 +147,8 @@ ul, li {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.red {
+  color: $red;
 }
