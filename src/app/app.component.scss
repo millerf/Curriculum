@@ -4,31 +4,27 @@
 
     FOR TESTS --- TO REMOVE
 */
-#placeholder {
-  display:none;
-  position: absolute;
-  top:-1458px;
-  left:0;
-}
+// #placeholder {
+//   position: absolute;
+//   top: -1458px;
+//   left: 0;
+// }
 
-.container{
-//  opacity: 1;
-  z-index: 200;
-  margin: 0;
-  padding:0;
-  max-width: none;
-  margin: 0;
-}
-
-
+// .container {
+//   opacity: 0.8;
+//   z-index: 200;
+//   margin: 0;
+//   padding: 0;
+//   max-width: none;
+//   margin: 0;
+// }
 
 /**
 
     FOR TESTS --- TO REMOVE
 */
 
-
-h1{
+h1 {
   b {
     font-size: 2.75rem;
     line-height: 2.75rem;
@@ -38,23 +34,22 @@ h1{
   line-height: 2.25rem;
 }
 
-
-h2{
+h2 {
   color: $red;
   font-size: 1.8rem;
   line-height: 1.6rem;
-  font-family: 'Maven Pro';
+  font-family: "Maven Pro";
   font-weight: 900;
   font-style: normal;
   sub {
     font-size: 1rem;
     line-height: 1rem;
-    display:block;
+    display: block;
     margin-bottom: 1rem;
   }
 }
 
-h3{
+h3 {
   color: $red;
   font-size: 1rem;
   line-height: 1.4rem;
@@ -62,12 +57,12 @@ h3{
   border-bottom: solid 1px $red;
 }
 
-.history{
+.history {
   li {
-    display:flex;
+    display: flex;
     flex-direction: column;
     position: relative;
-    margin: 0 10% 0.7rem 3rem;
+    margin: 0 7% 0.7rem 3rem;
     border-bottom: solid 1px $grey-light;
   }
   .title {
@@ -85,48 +80,52 @@ h3{
   }
   .date {
     font-size: 0.7rem;
-    color:$grey-light;
+    color: $secondary-color;
   }
-  .summary{
-    order:3;
+  .summary {
+    order: 3;
     margin-left: 2.7rem;
     color: $grey;
-    p{
+    padding-right: 10%;
+    p {
       font-size: 0.8rem;
       margin-bottom: 0.5rem;
     }
   }
-  .ref{
-    order:4;
+  .ref {
+    order: 4;
     margin-left: 2.7rem;
     font-size: 0.6rem;
     margin-bottom: 0.5rem;
-    color:$grey-light;
+    color: $secondary-color;
   }
-  img{
-    order:5;
+  img {
+    order: 5;
     position: absolute;
-    right:0;
+    right: 1.5rem;
+    max-height: 80px;
+    margin-top: 1rem;
   }
 }
 
-.content{
+.content {
   padding-top: 1.9rem;
   padding-right: 5.75rem;
   margin-bottom: 2.6rem;
-  li, a{
+  li,
+  a {
     font-size: 0.8rem;
-    line-height:1.1rem;
+    line-height: 1.1rem;
   }
 
   &.content_no_gutters {
     padding-right: 0;
   }
 }
-.title{
+.title {
   margin-top: 0.7rem;
   font-weight: bold;
-  sub{
+  sub {
     font-weight: bold;
     display: block;
     font-size: 0.8rem;
@@ -137,24 +136,23 @@ h3{
 
 .container-page {
   background-color: $white;
-  padding-top:2.5rem !important;
+  padding-top: 2.5rem !important;
 }
-
 
 #header {
   color: $white;
   background-color: $red;
 }
 
-
 #me {
-  div, a {
+  div,
+  a {
     color: $red;
     font-weight: bold;
     line-height: 2rem;
   }
 
-  span{
+  span {
     text-transform: uppercase;
   }
 
@@ -166,32 +164,42 @@ h3{
   margin-right: 15%;
   padding-right: 1rem;
 
-  #computing_position{
+  #computing_position {
     padding-left: 1.7rem;
   }
 
   .title {
     color: $red;
   }
-  li, a {
-    line-height:1.2rem;
+  li,
+  a {
+    line-height: 1.2rem;
   }
 }
 
-
+#yachting {
+  .history {
+    img {
+      filter: url("#monochrome");
+      -webkit-filter: url("#monochrome");
+    }
+  }
+}
 
 .icon {
-  width:1.2rem;
+  width: 1.2rem;
   height: 1.2rem;
   margin-right: 1rem;
 }
 
-a{
+a {
   color: $red;
   text-decoration: underline;
+  font-weight: 500;
 }
 
-ul, li {
+ul,
+li {
   display: block;
   list-style: none;
   margin: 0;
