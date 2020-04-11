@@ -4,20 +4,21 @@
 
     FOR TESTS --- TO REMOVE
 */
-// #placeholder {
-//   position: absolute;
-//   top: -1458px;
-//   left: 0;
-// }
+#placeholder {
+  position: absolute;
+  top: -1458px;
+  top: 142px;
+  left: 0;
+}
 
-// .container {
-//   opacity: 0.8;
-//   z-index: 200;
-//   margin: 0;
-//   padding: 0;
-//   max-width: none;
-//   margin: 0;
-// }
+.container {
+  opacity: 0.8;
+  z-index: 200;
+  margin: 0;
+  padding: 0;
+  max-width: none;
+  margin: 0;
+}
 
 /**
 
@@ -63,7 +64,9 @@ h3 {
     flex-direction: column;
     position: relative;
     margin: 0 7% 0.7rem 3rem;
-    border-bottom: solid 1px $grey-light;
+    &:not(:last-child) {
+      border-bottom: solid 1px $grey-light;
+    }
   }
   .title {
     order: 2;
@@ -78,6 +81,7 @@ h3 {
       border-left: solid 1px black;
     }
   }
+
   .date {
     font-size: 0.7rem;
     color: $secondary-color;
@@ -88,15 +92,18 @@ h3 {
     color: $grey;
     padding-right: 10%;
     p {
-      font-size: 0.8rem;
-      margin-bottom: 0.5rem;
+      font-size: 0.75rem;
+      margin-bottom: 0.8rem;
+      a {
+        font-size: 0.75rem;
+      }
     }
   }
   .ref {
     order: 4;
     margin-left: 2.7rem;
     font-size: 0.6rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.8rem;
     color: $secondary-color;
   }
   img {
@@ -116,6 +123,12 @@ h3 {
   a {
     font-size: 0.8rem;
     line-height: 1.1rem;
+
+  &.subtitle {
+    margin-top: 0.3rem;
+    font-weight: 500;
+    color: black;
+  }
   }
 
   &.content_no_gutters {
@@ -182,6 +195,23 @@ h3 {
     img {
       filter: url("#monochrome");
       -webkit-filter: url("#monochrome");
+    }
+  }
+}
+
+#extrajobs{
+  .history {
+    margin-top: 1rem;
+    li {
+      display: block;
+      border: none;
+      font-size: 0.7rem;
+      line-height: 0.5rem;;
+      span {
+        display: inline;
+        font-size: inherit;
+        font-weight: 500;
+      }
     }
   }
 }
