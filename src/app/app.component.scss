@@ -1,3 +1,123 @@
-.min-width{
-  min-width: 100px;
+@import "../variables.scss";
+
+/**
+
+    FOR TESTS --- TO REMOVE
+*/
+#placeholder {
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+.container{
+  opacity: 0.5;
+  z-index: 200;
+  margin: 0;
+  padding:0;
+  max-width: none;
+  margin: 0;
+}
+
+
+
+/**
+
+    FOR TESTS --- TO REMOVE
+*/
+
+
+h1{
+  b {
+    font-size: 2.75rem;
+    line-height: 2.75rem;
+    text-transform: uppercase;
+  }
+  font-size: 2.25rem;
+  line-height: 2.25rem;
+}
+
+
+h2{
+  color: $red;
+  text-transform: capitalize;
+  font-size: 1.8rem;
+  line-height: 1.1rem;
+  font-family: 'Maven Pro';
+  font-weight: 900;
+  font-style: normal;
+}
+
+.content{
+  padding-top: 1.9rem;
+  padding-right: 2.5rem;
+  li{
+    font-size: 0.8rem;
+  }
+}
+.title{
+  margin: 0.8rem 0;
+  font-weight: bold;
+  sub{
+    font-weight: bold;
+    display: block;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+  }
+}
+
+.container-page {
+  background-color: $white;
+  padding-top:2.5rem !important;
+}
+
+
+#header {
+  color: $white;
+  background-color: $red;
+}
+
+
+#me {
+  div, a {
+    color: $red;
+    font-weight: bold;
+    line-height: 2rem;
+  }
+
+  span{
+    text-transform: uppercase;
+  }
+
+  margin-bottom: 1.7rem;
+}
+
+#computing {
+  background-color: $grey-lighter;
+  margin: auto 2.6rem;
+  padding: auto 1.4rem;
+
+  .title {
+    color: $red;
+  }
+}
+
+
+
+.icon {
+  width:1.2rem;
+  height: 1.2rem;
+  margin-right: 1rem;
+}
+
+a{
+  color: $red;
+  text-decoration: underline;
+}
+
+ul, li {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
