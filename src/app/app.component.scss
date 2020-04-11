@@ -4,21 +4,21 @@
 
     FOR TESTS --- TO REMOVE
 // */
-#placeholder {
-  position: absolute;
-  top: -1458px;
-  top: 165px;
-  left: 0;
-}
+// #placeholder {
+//   position: absolute;
+//   top: -1458px;
+//   top: 165px;
+//   left: 0;
+// }
 
-.container {
-  opacity: 0.8;
-  z-index: 200;
-  margin: 0;
-  padding: 0;
-  max-width: none;
-  margin: 0;
-}
+// .container {
+//   opacity: 0.8;
+//   z-index: 200;
+//   margin: 0;
+//   padding: 0;
+//   max-width: none;
+//   margin: 0;
+// }
 
 /**
 
@@ -135,6 +135,7 @@ h3 {
     padding-right: 0;
   }
 }
+
 .title {
   margin-top: 0.7rem;
   font-weight: bold;
@@ -199,6 +200,22 @@ h3 {
   }
 }
 
+#languages{
+  li{
+    margin-top: 1rem;
+    span{
+      font-size: 0.7rem;
+    }
+    .title, .red{
+      font-size: 0.8rem;
+    }
+    .title{
+      font-weight: 600;
+    }
+  }
+
+}
+
 #extrajobs{
   .history {
     margin-top: 1rem;
@@ -206,7 +223,7 @@ h3 {
       display: block;
       border: none;
       font-size: 0.7rem;
-      line-height: 0.5rem;;
+      line-height: 0.5rem;
       span {
         display: inline;
         font-size: inherit;
@@ -228,6 +245,10 @@ h3 {
   li, a{
     line-height: 1.1rem;
     font-size: 0.8rem;
+  }
+
+  .content {
+    padding-right: 3rem;
   }
 
 }
@@ -263,4 +284,9 @@ li {
   img {
     height: 145px;
   }
+}
+
+app-range{
+  float: right;
+  width:60%;
 }

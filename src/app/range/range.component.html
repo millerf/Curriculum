@@ -1,0 +1,10 @@
+<!-- <input type="range" [value]="value" [disabled]="true" /> -->
+<div class="slider-container">
+  <div class="slider" [ngStyle]="{
+    'width': value + '%'
+   }">
+  </div>
+  <div class="handle" [ngStyle]="{
+    'left': value + '%'
+   }"></div>
+</div>
