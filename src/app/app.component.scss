@@ -3,11 +3,11 @@
 /**
 
     FOR TESTS --- TO REMOVE
-*/
+// */
 #placeholder {
   position: absolute;
   top: -1458px;
-  top: 142px;
+  top: 165px;
   left: 0;
 }
 
@@ -109,7 +109,7 @@ h3 {
   img {
     order: 5;
     position: absolute;
-    right: 1.5rem;
+    right: 0;
     max-height: 80px;
     margin-top: 1rem;
   }
@@ -118,7 +118,7 @@ h3 {
 .content {
   padding-top: 1.9rem;
   padding-right: 5.75rem;
-  margin-bottom: 2.6rem;
+  padding-bottom: 2.6rem;
   li,
   a {
     font-size: 0.8rem;
@@ -216,6 +216,11 @@ h3 {
   }
 }
 
+#footer {
+  background-color: $grey-lighter;
+}
+
+
 .icon {
   width: 1.2rem;
   height: 1.2rem;
@@ -238,4 +243,10 @@ li {
 
 .red {
   color: $red;
+}
+
+#logo {
+  img {
+    height: 145px;
+  }
 }
