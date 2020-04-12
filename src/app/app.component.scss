@@ -370,6 +370,13 @@ app-range{
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1400px) {
+  .pl-xxl-5{
+    padding-left: 3rem !important;
+  }
+  .ml-xxl-5{
+    margin-left: 3rem !important;
+  }
+
 .content{
   padding-right: 5.75rem;
 }
