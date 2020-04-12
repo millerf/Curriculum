@@ -109,20 +109,24 @@ h3 {
   img {
     order: 5;
     position: absolute;
-    right: 0;
-    max-height: 80px;
+    left: 0;
+    top: 20px;
+    max-height: 30px;
+    max-width: 30px;
     margin-top: 1rem;
   }
 }
 
 .content {
   padding-top: 1.9rem;
-  padding-right: 5.75rem;
+  padding-right: 2rem;
   padding-bottom: 2.6rem;
+
   li,
   a {
     font-size: 0.8rem;
     line-height: 1.1rem;
+
 
   &.subtitle {
     margin-top: 0.3rem;
@@ -275,20 +279,89 @@ li {
   color: $red;
 }
 
-#logo {
-  img {
-    height: 145px;
-  }
-}
-
 app-range{
   float: right;
   width:70%;
 }
 
+.detector{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  height: 20px;
+  width:20px;
+  display: block;
+  z-index: 1000;
+}
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .detector{
+    background-color: red;
+  }
+
+  html, body, * {
+    font-size: 14px;
+  }
+
+
+ }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .detector{
+    background-color: black;
+  }
+  html, body, * {
+    font-size: 16px;
+  }
+
+  .history{
+    img {
+      max-height: 40px;
+    }
+  }
+ }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .detector{
+    background-color: blue;
+  }
+  html, body, * {
+    font-size: 20px;
+  }
+
+  .history{
+    img {
+      top: 0px;
+      right: 0;
+      left: auto;
+      max-width: 80px;
+      max-height: 80px;
+    }
+  }
+ }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .detector{
+    background-color: green;
+  }
+
+}
+
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1400px) {
+.content{
+  padding-right: 5.75rem;
+}
+  .detector{
+    background-color: yellow;
+  }
+
   .container {
     max-width: 1366px;
   }
