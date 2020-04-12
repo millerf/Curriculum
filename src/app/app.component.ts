@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, NgZone } from '@angular/core';
 import * as moment from 'moment';
+import { DeviceDetectorService } from 'ngx-device-detector';
 
 @Component({
   selector: 'app-root',
@@ -7,6 +8,42 @@ import * as moment from 'moment';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'my-app';
-  age = moment().diff(moment('03/28/1984'), 'years');
+  title = 'Miller/F resumé';
+  age = moment().diff(moment('1984-03-28'), 'years');
+  showPrintingAlert = true;
+
+  constructor(private deviceService: DeviceDetectorService, private ngZone: NgZone) {
+    if (window.matchMedia) {
+      try{
+        window.matchMedia('print').addEventListener('change', (mql) => {
+          this.onChangeMedia(mql);
+        });
+
+      }catch(e)
+      {
+
+      }
+    }
+  }
+
+  private onChangeMedia(mql) {
+    if (mql.matches) {
+      this.beforePrint();
+     } else {
+       this.afterPrint();
+   }
+  }
+
+  private beforePrint() {
+
+    if (this.deviceService && this.deviceService.browser || this.deviceService.browser === 'Chrome') {
+      this.ngZone.run(() => {
+        this.showPrintingAlert = false;
+      });
+    }
+  }
+
+  private afterPrint() {
+   this.showPrintingAlert = true;
+  }
 }

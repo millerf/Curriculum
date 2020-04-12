@@ -299,8 +299,16 @@ app-range{
   margin: 2cm 17mm 17mm 17mm;
 }
 
+#printing-alert {
+  display: none;
+}
+
 
  @media print{
+
+  #printing-alert {
+    display: block;
+  }
 
   html, body {
     width: 210mm;
