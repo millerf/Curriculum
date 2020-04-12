@@ -90,7 +90,6 @@ h3 {
     order: 3;
     margin-left: 2.7rem;
     color: $grey;
-    padding-right: 10%;
     p {
       font-size: 0.75rem;
       margin-bottom: 0.8rem;
@@ -222,13 +221,19 @@ h3 {
 
 #extrajobs{
   .history {
+
+
     margin-top: 1rem;
     li {
       display: block;
       border: none;
       font-size: 0.7rem;
       line-height: 0.5rem;
+
       span {
+        &.country, &.location {
+          display: none;
+        }
         display: inline;
         font-size: inherit;
         font-weight: 500;
@@ -333,7 +338,17 @@ app-range{
     font-size: 20px;
   }
 
+  .country, .location {
+    display: auto;
+  }
+
+
   .history{
+
+    .summary{
+      padding-right: 10%;
+    }
+
     img {
       top: 0px;
       right: 0;
