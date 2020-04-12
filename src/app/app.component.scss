@@ -311,11 +311,13 @@ app-range{
      max-width: none;
    }
 
-   #me {
-     .content{
-       margin-top: 2rem;
-     }
+   .content{
+    margin-top: 0rem !important;
+    margin-bottom: 0rem !important;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
    }
+
    #header {
      padding-top: 0 !important;
    }
