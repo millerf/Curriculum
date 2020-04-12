@@ -178,7 +178,7 @@ h3 {
 
 #computing_bg {
   background-color: $grey-lighter;
-  margin-right: 15%;
+  margin-right: 1rem;
   padding-right: 1rem;
 
   #computing_position {
@@ -351,6 +351,9 @@ app-range{
     display: auto;
   }
 
+  #computing_bg {
+    margin-right: 15%;
+  }
 
   .history{
 
