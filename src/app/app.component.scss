@@ -246,11 +246,6 @@ h3 {
     line-height: 1.1rem;
     font-size: 0.8rem;
   }
-
-  .content {
-    padding-right: 3rem;
-  }
-
 }
 
 .font-medium {
@@ -288,5 +283,53 @@ li {
 
 app-range{
   float: right;
-  width:60%;
+  width:70%;
 }
+
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1366px;
+  }
+ }
+
+ @page {
+  size: A4;
+  margin: 2cm 17mm 17mm 17mm;
+}
+
+
+ @media print{
+
+  html, body {
+    width: 210mm;
+    height: 297mm;
+  }
+
+   .container{
+     max-width: none;
+   }
+
+   #me {
+     .content{
+       margin-top: 2rem;
+     }
+   }
+   #header {
+     padding-top: 0 !important;
+   }
+   #yachting, #extrajobs {
+     page-break-before: always;
+  }
+   #yachting, #extrajobs, #employment {
+      margin-top: 3rem;
+    }
+
+    .history {
+      li {
+        page-break-inside: avoid;
+      }
+    }
+
+ }

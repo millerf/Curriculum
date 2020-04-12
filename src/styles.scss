@@ -23,13 +23,15 @@ body {
   background-color: $grey;
 }
 
-@media screen and (max-width: 640px) {
-  ul.center {
-    width: 100%;
-    margin-left: 0;
-    left: 0;
-    border: none;
-    border-radius: none;
-
+@media print {
+  body {
+    background-color: white;
   }
+}
+
+svg {
+  // Used for CSS filters
+  // display: none on firefox wouldn't show the images.
+  position: absolute;
+  top: -999999px;
 }
