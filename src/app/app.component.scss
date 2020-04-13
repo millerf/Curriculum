@@ -1,30 +1,5 @@
 @import "../variables.scss";
 
-/**
-
-    FOR TESTS --- TO REMOVE
-// */
-// #placeholder {
-//   position: absolute;
-//   top: -1458px;
-//   top: 165px;
-//   left: 0;
-// }
-
-// .container {
-//   opacity: 0.8;
-//   z-index: 200;
-//   margin: 0;
-//   padding: 0;
-//   max-width: none;
-//   margin: 0;
-// }
-
-/**
-
-    FOR TESTS --- TO REMOVE
-*/
-
 h1 {
   b {
     font-size: 2.75rem;
@@ -205,14 +180,13 @@ h3 {
 
 #languages{
   li{
-    margin-top: 1rem;
     span{
       font-size: 0.7rem;
     }
-    .title, .red{
+    .lang, .red{
       font-size: 0.8rem;
     }
-    .title{
+    .lang{
       font-weight: 600;
     }
   }
@@ -286,7 +260,7 @@ li {
 
 app-range{
   float: right;
-  width:70%;
+  width:65%;
 }
 
 .detector{
@@ -362,7 +336,7 @@ app-range{
     }
 
     .summary{
-      padding-right: 10%;
+      padding-right: 15%;
     }
 
     img {
@@ -379,6 +353,10 @@ app-range{
 @media (min-width: 1200px) {
   .detector{
     background-color: green;
+  }
+
+  .summary{
+    padding-right: 10%;
   }
 
 }
